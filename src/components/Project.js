@@ -1,24 +1,29 @@
 import React from 'react';
+// import { library } from '@fortawesome/fontawesome-svg-core';
+// import { fab } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { } from '@fontawesome/free-solid-svg-icons'
 
 function Project({projects}) {
     return (
         
-        <section class="container-fluid projects">
+        <section className="container-fluid projects">
             <h2 id="project-title">projects</h2>
-            <div class="project-expand" data-projects="hide">
-                <div class="row project-examples">
+            <div className="project-expand" data-projects="hide">
+                <div className="row project-examples">
                     {projects.map((project) => {
                         return (
                             <div className="card col-md-5 project-card" id={project.name}>
                                 <a
-                                class="project-link"
+                                className="project-link"
                                 href={project.deployment}
                                 alt={project.alt}
                                 >
                                 <span>{project.name}</span>
                                 </a>
-                                <a class="project-link" href={project.git}>
-                                <i class="fa-brands fa-github-alt fa-xl repo-icon"></i>
+                                <a className="project-link" href={project.git}>
+                                <FontAwesomeIcon icon={['fab', 'github-alt']}className="repo-icon"/>
+                                {/* <i class="fa-brands fa-github-alt fa-xl repo-icon"></i> */}
                                 </a>
                             </div>
 
