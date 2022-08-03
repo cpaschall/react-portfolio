@@ -7,6 +7,8 @@ function Contact() {
     const [sender, setSender] = useState('');
     const [message, setMessage] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
+    const [isHovered, setIsHovered] = useState(false);
+    const [text, setText] = useState('');
 
     const handleInputChange = (e) => {
         const { target } = e;
@@ -62,9 +64,17 @@ function Contact() {
                     className="text-input"
                     name="sender"
                     onChange={handleInputChange}
+                    onMouseEnter={() => setIsHovered(true)}
+                    onMouseLeave={() => setIsHovered(false)}
                     id="full-name"
                     placeholder="name"
                     />
+                    {/* {!isHovered && (
+                        <div>
+                            It Works!
+                        </div>
+                    )} */}
+                    
                 </p>
                 <p>
                     <label for="email">email:</label>

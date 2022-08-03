@@ -13,10 +13,16 @@ function Header() {
                 </div>
                 <div className="col-lg-8 right-side">
                 <div id="intro-flex">
+                    <div className="intro-mobile">
+                        <h1>i'm cal</h1>
+                    </div>
                     <div id="intro-outer">
                     <div id="intro-inner">
                         <img src={avatar} alt="profile pic" id="profile-pic"/>
                     </div>
+                    </div>
+                    <div className="intro-mobile">
+                        <h1>a web developer</h1>
                     </div>
                 </div>
                 <div id="welcome-flex">

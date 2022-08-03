@@ -4,7 +4,9 @@ import Contact from './pages/Contact';
 import Header from './pages/Header';
 import Project from './pages/Project';
 import projects from '../projectList';
+import Resume from './pages/Resume'
 import Navigation from './Navigation';
+import Footer from './Footer'
 
 export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('Header');
@@ -22,6 +24,9 @@ export default function PortfolioContainer() {
         if (currentPage === 'Contact') {
             return <Contact />;
         }
+        if (currentPage === 'Resume') {
+            return <Resume />;
+        }
     };
 
     const handlePageChange = (page) => setCurrentPage(page);
@@ -30,6 +35,7 @@ export default function PortfolioContainer() {
         <div>
             <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
+            <Footer />
         </div>
-    );
+    )
 }
