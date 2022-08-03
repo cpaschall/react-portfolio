@@ -16,7 +16,7 @@
   ```npm start```
 
   ## Usage
-  [Github Repo](https://github.com/cpaschall/react-portfolio)
+  [My Portfolio](https://cpaschall.github.io/react-portfolio/)
   <br>
   ![React Portfolio](./src/assets/images/portfolio.gif)
 
