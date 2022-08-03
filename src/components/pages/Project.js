@@ -4,8 +4,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 function Project({projects}) {
     return (
         
-        <section className="container-fluid projects">
+        <section className="container-fluid projects" id="projects">
+            <div>
             <h2 id="project-title">projects</h2>
+            </div>
             <div className="project-expand" data-projects="hide">
                 <div className="row project-examples">
                     {projects.map((project) => {

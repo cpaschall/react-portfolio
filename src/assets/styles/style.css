@@ -32,10 +32,10 @@
     font-size: 1.5em;
   }
   
-  .about {
+  /* .about {
     text-align: center;
     margin-top: 10%;
-  }
+  } */
   
   .about-row {
     background-image: linear-gradient(90deg, #05dfd7, #fa26a0);
@@ -59,10 +59,10 @@
     height: 350px;
   }
   
-  .contact {
+  /* .contact {
     text-align: center;
     margin: 10% 0%;
-  }
+  } */
   
   .contact-info {
     background: #393e46;
@@ -79,6 +79,7 @@
     margin: 1%;
     justify-content: center;
     align-items: center;
+    text-align: center;
   }
   
   .fa-circle-question:hover {
@@ -154,6 +155,7 @@
     width: 50%;
     height: 50px;
     position: fixed;
+    top: 0;
     right: 0px;
     border-bottom-left-radius: 5px;
     z-index: 2;
@@ -166,10 +168,10 @@
     background-size: 100% 100%;
   }
   
-  .projects {
+  /* .projects {
     text-align: center;
     margin-top: 8%;
-  }
+  } */
   
   .project-card:hover {
     opacity: 1;
@@ -253,15 +255,17 @@
     z-index: 1;
   }
   
-  #about-title:hover {
+  /* #about-title:hover {
     text-shadow: 2px 4px 5px #393e46;
     cursor: pointer;
     font-size: 76px;
-  }
+  } */
   
   #about-title {
     font-size: 72px;
     background: -webkit-linear-gradient(#05dfd7, #fa26a0);
+    text-shadow: 2px 4px 5px #393e46;
+    margin-left: 1%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -285,15 +289,17 @@
     padding: 3%;
   }
   
-  #contact-title:hover {
+  /* #contact-title:hover {
     text-shadow: 2px 4px 5px #393e46;
     cursor: pointer;
     font-size: 76px;
-  }
+  } */
   
   #contact-title {
     font-size: 72px;
     background: -webkit-linear-gradient(#05dfd7, #fa26a0);
+    text-shadow: 2px 4px 5px #393e46;
+    margin-left: 1%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -405,15 +411,17 @@
     height: 100%
   }
   
-  #project-title:hover {
+  /* #project-title:hover {
     text-shadow: 2px 4px 5px #393e46;
     cursor: pointer;
     font-size: 76px;
-  }
+  } */
   
   #project-title {
     font-size: 72px;
     background: -webkit-linear-gradient(#05dfd7, #fa26a0);
+    text-shadow: 2px 4px 5px #393e46;
+    margin-left: 1%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -523,6 +531,16 @@
   }
   
   @media screen and (max-width: 995px) {
+    .about {
+      padding-top: 100px;
+      text-align: center;
+    }
+
+    .contact {
+      padding-top: 100px;
+      text-align: center;
+    }
+
     .left-side {
       display: none;
     }
@@ -530,14 +548,20 @@
     .navbar {
       width: 100%;
       border-bottom-left-radius: 0px;
+      margin-bottom: 5%;
     }
-  
+    
+    .projects {
+      padding-top: 100px;
+      text-align: center;;
+    }
+
     .right-side {
       justify-content: center;
       align-items: center;
       width: 100%;
     }
-  
+    
     #intro-flex {
       width: 0%;
       justify-content: center;
@@ -594,12 +618,12 @@
       color: #fa26a0;
     }
   
-    .nav-links {
+    /* .nav-links {
       display: none;
-    }
+    } */
   
     .nav-links-mobile {
-      display: none;
+      /* display: none; */
       text-align: center;
       width: 175px;
       margin-top: 3%;

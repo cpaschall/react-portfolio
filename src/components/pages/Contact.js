@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 // import { validateEmail } from "
-import { validateEmail } from '../utils/helpers';
+import { validateEmail } from '../../utils/helpers';
 
 function Contact() {
     const [email, setEmail] = useState('');
@@ -43,7 +43,7 @@ function Contact() {
 
 
     return (
-        <section className="container-fluid contact">
+        <section className="container-fluid contact" id="contact">
             <h2 id="contact-title">contact me</h2>
             <div className="row contact-row" data-contact="hide">
             <div className="contact-info">
