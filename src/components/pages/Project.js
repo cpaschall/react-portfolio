@@ -12,12 +12,12 @@ function Project({projects}) {
                 <div className="row project-examples">
                     {projects.map((project) => {
                         return (
-                            <div className="card col-md-5 project-card" id={project.name}>
+                            <div className="card col-md-5 project-card" id={project.id}>
                                 <a
                                 className="project-link"
                                 href={project.deployment}
                                 alt={project.alt}
-                                >
+                                > 
                                 <span>{project.name}</span>
                                 </a>
                                 <a className="project-link" href={project.git}>

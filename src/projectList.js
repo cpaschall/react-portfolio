@@ -3,37 +3,43 @@
 
 const projects = [
     {
-        name: "codeop",
+        id: "codeop",
+        name: "codeOp",
         deployment: "https://codeop2.herokuapp.com/",
         git: "https://github.com/cpaschall/codeOp",
         alt: "codeop webpage"
     },
     {
-        name: "codequiz",
+        id: "codequiz",
+        name: "Code Quiz",
         deployment: "https://cpaschall.github.io/code-quiz/",
         git: "https://github.com/cpaschall/code-quiz",
         alt: "code quiz webpage"
     },
     {
-        name: "weather-dash",
+        id: "weather-dash",
+        name: "Weather Dashboard",
         deployment: "https://cpaschall.github.io/weather-dashboard/",
         git: "https://github.com/cpaschall/weather-dashboard",
         alt: "weather dashboard webpage"
     },
     {
-        name: "note-taker",
+        id: "note-taker",
+        name: "Note Taker",
         deployment: "https://note-taker-expr-server.herokuapp.com/",
         git: "https://github.com/cpaschall/note-taker-expr",
         alt: "note taker gif"
     },
     {
-        name: "scheduler",
+        id: "scheduler",
+        name: "Scheduler",
         deployment: "https://cpaschall.github.io/workday-scheduler/",
         git: "https://github.com/cpaschall/workday-scheduler",
         alt: "scheduler gif"
     },
     {
-        name: "pwgen",
+        id: "pwgen",
+        name: "Password Gen",
         deployment: "https://cpaschall.github.io/password-generator/",
         git: "https://github.com/cpaschall/password-generator",
         alt: "pw gen png"

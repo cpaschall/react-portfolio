@@ -25,7 +25,7 @@ export default function PortfolioContainer() {
             return <Contact />;
         }
         if (currentPage === 'Resume') {
-            return <Resume />;
+            return <Resume currentPage='Resume'/>;
         }
     };
 

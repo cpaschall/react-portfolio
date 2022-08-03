@@ -66,7 +66,7 @@
   .active {
     color: aliceblue;
   }
-  
+
   .card {
     height: 350px;
   }
@@ -193,6 +193,14 @@
     padding-top: 100px;
   }
   
+  .project-back:hover {
+    display: flex;
+  }
+
+  .project-back {
+    display: none;
+  }
+
   .project-card:hover {
     opacity: 1;
     cursor: pointer;
@@ -266,6 +274,7 @@
   
   .skills {
     padding: 5%;
+    text-align: start;
   }
 
   .text-input {
@@ -368,8 +377,9 @@
     padding-top: 10px;
   }
 
-  #email-addr a{
+  #email-addr span{
     color:#05dfd7;
+    pointer-events: none;
   }
 
   #email-btn {
@@ -481,12 +491,17 @@
     margin-left: 1%;
   }
 
+  #resume-link {
+    color: #fa26a0;
+  }
+
   #resume-title {
     font-size: 72px;
     background: -webkit-linear-gradient(#05dfd7, #fa26a0);
     text-shadow: 2px 4px 5px #393e46;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-left: 1%;
   }
 
   #scheduler {
@@ -498,6 +513,11 @@
     display: flex;
     justify-content: space-around;
   }
+
+  #tech-skills {
+    text-align: center;
+  }
+
   #title-inner {
     display: flex;
     align-items: center;
