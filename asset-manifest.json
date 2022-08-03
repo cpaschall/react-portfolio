@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/react-portfolio/static/js/main.117a9f38.js",
+    "main.css": "/react-portfolio/static/css/main.3e52e57e.css",
+    "main.js": "/react-portfolio/static/js/main.18a1f9f9.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
-    "static/media/logo.svg": "/react-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/codequiz.gif": "/react-portfolio/static/media/codequiz.1a2ac102e5198803cb9c.gif",
+    "static/media/dashboard.gif": "/react-portfolio/static/media/dashboard.4ef6f4b4466fb8b06a8b.gif",
+    "static/media/scheduler.png": "/react-portfolio/static/media/scheduler.fa766bc4c0037603cafc.png",
+    "static/media/codeop.png": "/react-portfolio/static/media/codeop.244817da9735bba78fce.png",
+    "static/media/TechResume.pdf": "/react-portfolio/static/media/TechResume.55ee9b3fbcaa097db722.pdf",
+    "static/media/cal-toon4.png": "/react-portfolio/static/media/cal-toon4.70fc211984474f434818.png",
+    "static/media/pwgen.png": "/react-portfolio/static/media/pwgen.4b6e675ffa6529f49bb8.png",
+    "static/media/notes.png": "/react-portfolio/static/media/notes.2102b5133b8c0afb1810.png",
     "index.html": "/react-portfolio/index.html",
-    "main.073c9b0a.css.map": "/react-portfolio/static/css/main.073c9b0a.css.map",
-    "main.117a9f38.js.map": "/react-portfolio/static/js/main.117a9f38.js.map",
+    "main.3e52e57e.css.map": "/react-portfolio/static/css/main.3e52e57e.css.map",
+    "main.18a1f9f9.js.map": "/react-portfolio/static/js/main.18a1f9f9.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.117a9f38.js"
+    "static/css/main.3e52e57e.css",
+    "static/js/main.18a1f9f9.js"
   ]
 }
