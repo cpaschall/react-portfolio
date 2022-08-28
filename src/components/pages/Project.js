@@ -3,30 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { OverlayTrigger, Tooltip, Popover, Collapse } from 'react-bootstrap';
 import cn from "classnames";
 
-// const popover = (
-//     <Popover id="popover-basic">
-//         <Popover.Header as="h3">Project</Popover.Header>
-//         <Popover.Body>
-//             <div>
-//                 This project is about...
-//             </div>
-//             <div>
-//                 Technologies...
-//             </div>
-//         </Popover.Body>
-//     </Popover>
-
-// const cards = [
-//     {
-//         variant: "hover",
-//         front: "Front",
-//         back: "Back"
-//     }
-// ]
-// )
 function Project({projects}) {
-    // const [open, setOpen] = useState(false)
-    // const [showBack, setShowBack] = useState(false);
     return (
         
         <section className="container-fluid projects" id="projects">
@@ -56,7 +33,7 @@ function Project({projects}) {
                                                 <a className="project-link" href={project.git}>
                                                 <FontAwesomeIcon icon={['fab', 'github-alt']}className="repo-icon"/>
                                             </a>
-                                            
+
                                         </div>
                                         <div id="project-desc">
                                             {project.desc}
@@ -65,18 +42,6 @@ function Project({projects}) {
                                             <h5>Technologies Used</h5>
                                             <div>{project.tech}</div>
                                         </div>
-                                        
-                                        {/* <div className="card-body project-back">  */}
-                                            {/* <div>{project.desc}</div> */}
-                                            {/* <div className="project-desc">
-                                                <h3>What is this Project?</h3>
-                                                <h5>{project.desc}</h5>
-                                            </div>
-                                            <div className="project-tech">
-                                                <h3>Technologies Used</h3>
-                                                <h5>{project.tech}</h5>
-                                            </div> */}
-                                        {/* </div>     */}
                                     </div>
                                 </div>
                             </div>

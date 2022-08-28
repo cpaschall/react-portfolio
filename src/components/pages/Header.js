@@ -1,8 +1,5 @@
 import React from "react";
 import avatar from '../../assets/images/cal-toon4.png'
-// import '../styles/Header.css';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 function Header() {
     return (

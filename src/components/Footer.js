@@ -1,7 +1,5 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faFile } from '@fortawesome/free-solid-svg-icons'
-
 
 function Footer() {
   return (
@@ -22,15 +20,9 @@ function Footer() {
           <FontAwesomeIcon icon={['fab', 'twitter']} className="fa-solid fa-xl"/>
           </a>
         </li>
-        {/* <li className="foot-link">
-          <a href="../assets/other/TechResume.pdf">
-            <FontAwesomeIcon icon={faFile} className="fa-solid fa-xl"/>
-          </a>
-        </li> */}
       </ul>
     </footer>
   )
 };
-
 
 export default Footer;

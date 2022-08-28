@@ -8,15 +8,6 @@ import Resume from './pages/Resume'
 import Navigation from './Navigation';
 import Footer from './Footer';
 
-// const cards = [
-//     {
-//         id: "1",
-//         variant: "hover",
-//         front: "Front",
-//         back: "Back"
-//     }
-// ]
-
 export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('Header');
 
@@ -32,9 +23,6 @@ export default function PortfolioContainer() {
                 <div className="container">
                     <div className="row h-100">
                         <div className="col d-flex flex-column flex-md-row justify-content-around">
-                            {/* {cards.map((card) => (
-                                <Project projects={projects} key={card.id} card={card} />
-                            ))} */}
                             <Project projects={projects} />
                         </div>
                     </div>
